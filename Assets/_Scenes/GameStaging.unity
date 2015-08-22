@@ -249,8 +249,8 @@ MonoBehaviour:
     input:
       rect:
         serializedVersion: 2
-        x: 200
-        y: 200
+        x: 220
+        y: 80
         width: 20
         height: 20
       color: {r: 0, g: 0, b: 1, a: 1}
@@ -258,17 +258,17 @@ MonoBehaviour:
     output:
       rect:
         serializedVersion: 2
-        x: 320
-        y: 220
+        x: 340
+        y: 100
         width: 20
         height: 20
       color: {r: 1, g: .5, b: 0, a: 1}
-      nextNodeID: 9
-    position: {x: 11.1499977, y: 9.69999886}
+      nextNodeID: 13
+    position: {x: 11.7999992, y: 3.69999599}
     rect:
       serializedVersion: 2
-      x: 220
-      y: 200
+      x: 240
+      y: 80
       width: 100
       height: 40
   - nodeID: 6
@@ -394,8 +394,8 @@ MonoBehaviour:
     - conditions: []
       rect:
         serializedVersion: 2
-        x: 420
-        y: 360
+        x: 360
+        y: 380
         width: 100
         height: 20
       text: Hello!
@@ -405,8 +405,8 @@ MonoBehaviour:
     input:
       rect:
         serializedVersion: 2
-        x: 400
-        y: 340
+        x: 340
+        y: 360
         width: 20
         height: 20
       color: {r: 0, g: 0, b: 1, a: 1}
@@ -414,17 +414,17 @@ MonoBehaviour:
     output:
       rect:
         serializedVersion: 2
-        x: 520
-        y: 380
+        x: 460
+        y: 400
         width: 20
         height: 20
       color: {r: 0, g: 0, b: 1, a: 1}
       nextNodeID: 10
-    position: {x: 21.4500008, y: 16.75}
+    position: {x: 18.0499897, y: 18.4000053}
     rect:
       serializedVersion: 2
-      x: 420
-      y: 340
+      x: 360
+      y: 360
       width: 100
       height: 60
   - nodeID: 10
@@ -505,7 +505,46 @@ MonoBehaviour:
       y: 400
       width: 100
       height: 60
-  autoNumNode: 13
+  - nodeID: 13
+    actorID: 6
+    lines:
+    - conditions: []
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 220
+        width: 100
+        height: 20
+      text: The Monster's Ball! - Click to Continue!
+    options: []
+    redirections: []
+    actions: []
+    input:
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 200
+        width: 20
+        height: 20
+      color: {r: 0, g: 0, b: 1, a: 1}
+      nextNodeID: -1
+    output:
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 240
+        width: 20
+        height: 20
+      color: {r: 0, g: 0, b: 1, a: 1}
+      nextNodeID: 9
+    position: {x: 14.5499954, y: 9.85000706}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 200
+      width: 100
+      height: 60
+  autoNumNode: 14
   gridPosition: {x: 186, y: 1}
   zoom: 1
 --- !u!212 &1100874801
@@ -716,7 +755,17 @@ MonoBehaviour:
     transform: {fileID: 0}
     autoPosition: 0
     offset: {x: 0, y: .0299999993, z: 0}
-  autoNumActor: 6
+  - show: 0
+    actorID: 6
+    name: Introduction
+    image: {fileID: 0}
+    imageRight: 0
+    positionType: 0
+    position: 4
+    transform: {fileID: 0}
+    autoPosition: 0
+    offset: {x: 0, y: 0, z: 0}
+  autoNumActor: 7
   mainTexture: {fileID: 2800000, guid: 0f5a945d4878fcb48b86ea3de8aa0752, type: 3}
   widthStyle: 0
   heightStyle: 0
